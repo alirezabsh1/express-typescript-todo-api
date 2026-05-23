@@ -1,5 +1,3 @@
-Here’s a clean `README.md` for your project:
-
 ````md
 # Express TypeScript Todo API
 
