@@ -25,7 +25,6 @@ A simple Todo CRUD API built with Express, TypeScript, TypeORM, and PostgreSQL.
 - TypeORM
 - PostgreSQL
 - dotenv
-- cors
 
 ## Project Structure
 
