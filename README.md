@@ -28,7 +28,6 @@ A simple Todo CRUD API built with Express, TypeScript, TypeORM, and PostgreSQL.
 
 ## Project Structure
 
-```txt
 src/
   config/
     data-source.ts
