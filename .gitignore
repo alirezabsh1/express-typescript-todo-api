@@ -1,0 +1,4 @@
+requests.http
+.env
+node_modules
+dist
