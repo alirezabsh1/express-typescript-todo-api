@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import todoRoutes from "./routes/todo.routes";
+import userRoutes from "./routes/user.routes";
 import { errorMiddleware } from "./middlewares/error.middleware";
 
 const app = express();
@@ -15,6 +16,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/todos", todoRoutes);
+app.use("/api/auth", userRoutes);
 
 app.use((req, res) => {
   res.status(404).json({
